@@ -1,0 +1,9 @@
+(library
+ (name imp)
+ (libraries stdio compiler-libs.common menhirLib)
+ (preprocess (pps ppx_deriving.show)))
+
+(ocamllex lexer)
+(menhir 
+ (modules grammar)
+ (infer true))

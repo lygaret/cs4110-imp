@@ -1,0 +1,13 @@
+# example.imp
+
+foo := 10;
+bar := 3;
+
+while bar < foo {
+    print foo;
+    print bar;
+
+    bar := bar + bar
+};
+
+print bar
