@@ -1,4 +1,4 @@
-`imp`, a simple imperative language with conditionals stores.
+`imp`, a simple imperative language with conditionals and stores.
 
 see lecture 5 slides and notes for information:
 https://www.cs.cornell.edu/courses/cs4110/2021fa/schedule.html
